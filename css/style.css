@@ -21,11 +21,16 @@
 }
 
 .text{
-  color: #00FFFF;
-  margin-bottom: 4vh;
+  color: #fff;
+  margin-bottom: 3vh;
 }
 
 .text::selection{
   background: #2407AB;
   color: #fff;
+}
+
+#score{
+  color: #fff;
+  margin-bottom: 2vh;
 }
