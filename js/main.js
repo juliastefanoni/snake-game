@@ -24,7 +24,7 @@ function createBackground() {
 function createSnake() {
   for(i = 0; i < snake.length; i++){
     context.fillStyle = "#fff";
-    context.fillRect(snake[i].x, snake[i].y, box, box);
+    context.fillRect(snake[i].x, snake[i].y, box - 1, box - 1); // O valor -1 vai criar um espaço de 1px entre os quadrados da cobrinha
   }
 }
 
